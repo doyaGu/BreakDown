@@ -1,0 +1,72 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(38, 114, 255);
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(252, 50, 50);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+.message {
+    left: 185px;
+    top: 140px;
+}
+.game-area div {
+    position: absolute;
+}
+
+.game-area {
+    width: 690px;
+    height: 640px;
+    margin: 0 auto;
+    padding: 0;
+    border: 20px solid rgba(27, 75, 33, 0.5);
+    position: relative;
+}
+
+#bar {
+    background-color: #000;
+
+    box-shadow: 1px 1px 1px grey, inset 2px 3px 5px rgba(0, 0, 0, 0.3), inset -2px -3px 5px rgba(255, 255, 255, 0.5);
+}
+
+.ball {
+    background-color: #000;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px grey, inset 2px 3px 5px rgba(0, 0, 0, 0.3), inset -2px -3px 5px rgba(255, 255, 255, 0.5);
+}
+
+.brick {
+    margin: 0;
+    border: 0;
+    box-shadow: 1px 1px 1px grey, inset 2px 3px 5px rgba(0, 0, 0, 0.3), inset -2px -3px 5px rgba(255, 255, 255, 0.5);
+}
